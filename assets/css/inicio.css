@@ -1,0 +1,74 @@
+.header_content {
+	padding: 1.2em .5em .5em;
+	text-align: center;
+	margin: auto;
+	width: 90vw;
+}
+
+.header_subtitle {
+	text-transform: uppercase;
+	color: var(--text-color-secondary);
+	font-size: 1.2em;
+	font-weight: lighter;
+	padding-bottom: .6em;
+}
+
+.header_socials {
+	font-size: 1.8em;
+}
+
+.header_socials a {
+	text-decoration: none;
+	margin-right: .4em;
+}
+
+.header_animation {
+	display: none;
+}
+
+.inicio_main {
+	width: 80vw;
+	margin: 1em auto 0;
+}
+
+.img_profile {
+	width: 12em;
+	border-radius: 10px;
+	margin: auto;
+	margin-bottom: 1em;
+}
+
+#intro {
+	font-size: .825em;
+	line-height: 1.5;
+}
+
+#intro p {
+	margin-bottom: .8em;
+}
+
+.creditos_lista {
+	padding: .8em 0 1em; 
+	list-style: none;
+}
+
+/* ======================= KEYFRAMES ======================= */
+@keyframes header_windowMove {
+	from {
+		transform: translate(0, 0);
+	}
+
+	to {
+		transform: translate(20px, 20px);
+	}
+}
+
+@keyframes header_characterMove {
+	from {
+		transform: translateX(0);
+	}
+
+	to {
+		transform: translateX(20px);
+	}
+}

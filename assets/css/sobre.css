@@ -1,0 +1,57 @@
+.sobre_main {
+	padding-left: 1.2em;
+	padding-right: 1.2em;
+	width: 95vw;
+}
+
+.section_details {
+	background-color: var(--bg-color);
+	color: var(--cold-tone);
+	padding: .6em;
+	border-bottom: 1px solid;
+}
+
+.section_summary {
+	list-style: none;
+	font-weight: bold;
+	text-transform: uppercase;
+	letter-spacing: .08em;
+	justify-content: space-between;
+	cursor: pointer;
+}
+
+.section_summary:hover,
+.section_summary:focus {
+	color: var(--warm-tone);
+}
+
+.sobre_textContent {
+	width: 100%;
+}
+
+.sobre_main p {
+	font-size: .825em;
+	line-height: 1.6;
+	color: var(--text-color);
+}
+
+.sobre_apresentacao p,
+.sobre_formAcademica p {
+	margin-bottom: .6em;
+	padding: .4em;
+}
+
+.cursos_lista {
+	list-style: none;
+	gap: .4em;
+}
+
+.cursos_item {
+	padding: .6em;
+	column-gap: 1em;
+	justify-content: start;
+}
+
+.cursos_icon {
+	font-size: 1.4em;
+}

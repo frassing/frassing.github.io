@@ -1,0 +1,61 @@
+.contato_main {
+	justify-content: center;
+	justify-items: center;
+	align-items: center;
+}
+
+.contato_form {
+	flex-direction: column;
+	background-color: var(--card-bg);
+	color: var(--card-text);
+	padding: 1em;
+	border-radius: 3px;
+	gap: .2em;
+	box-shadow: 0 0 10px -4px;
+}
+
+.contato_form input,
+.contato_form textarea,
+.contato_form button {
+	width: 20em;
+	border: none;
+	outline: none;
+	margin-bottom: .5em;
+	border-radius: 3px;
+	transition: background .2s, border .2s;
+	padding: .5em;
+}
+
+.contato_form textarea {
+	height: 10em;
+}
+
+.contato_form input,
+.contato_form textarea {
+	background-color: transparent;
+	border-bottom: 2px solid var(--cold-tone);
+}
+
+.contato_form input:focus,
+.contato_form textarea:focus {
+	background-color: hsl(218 50% 90%);
+}
+
+/* ======================= PÁGINA OBRIGADA PELO CONTATO ======================= */
+.obg_main {
+	width: 85vw;
+	flex-direction: column;
+	min-height: 91vh;
+}
+
+.obg_main .flex {
+	flex-direction: column;
+}
+
+.obg_text {
+	text-align: center;
+}
+
+.obg_text .page_subtitle {
+	font-size: 1.2em;
+}
