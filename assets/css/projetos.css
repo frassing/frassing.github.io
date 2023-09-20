@@ -53,7 +53,8 @@
 	font-size: .9em;
 }
 
-.card_action:hover {
+.card_action:hover,
+.card_action:focus {
 	color: var(--text-color);
 }
 
