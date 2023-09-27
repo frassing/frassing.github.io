@@ -12,8 +12,7 @@
 	<link rel="icon" type="image/png" sizes="16x16" href="../favicon_io/favicon-16x16.png">
 	<link rel="manifest" href="../favicon_io/site.webmanifest">
 
-	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
-		crossorigin="anonymous" referrerpolicy="no-referrer">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" crossorigin="anonymous" referrerpolicy="no-referrer">
 
 	<link rel="stylesheet" href="../css/base.css">
 	<link rel="stylesheet" href="../css/projetos.css">
@@ -30,21 +29,18 @@
 						<span class="nav_text">Início</span>
 					</a>
 				</li>
-
 				<li class="nav_item">
 					<a href="./sobre.html" class="nav_link flex">
 						<i class="nav_icon fa fa-user"></i>
 						<span class="nav_text">Sobre</span>
 					</a>
 				</li>
-
 				<li class="nav_item">
 					<a href="./projetos.html" class="nav_link flex">
 						<i class="nav_icon fa fa-folder"></i>
 						<span class="nav_text">Projetos</span>
 					</a>
 				</li>
-
 				<li class="nav_item">
 					<a href="./contato.html" class="nav_link flex">
 						<i class="nav_icon fa fa-envelope"></i>
@@ -52,7 +48,7 @@
 					</a>
 				</li>
 			</ul>
-
+			<!-- Ícone para mudar o tema light/dark -->
 			<button type="button" id="changeTheme-btn">
 				<i class="changeTheme_icon fa fa-sun" aria-hidden="true"></i>
 			</button>
@@ -61,137 +57,126 @@
 
 	<main class="page_main">
 		<h1 class="page_title">Projetos</h1>
-
 		<div class="projetos_cardsContainer grid">
-
 			<div class="projetos_card flex">
 				<div class="card_img">
 					<img src="../img/projetos/cardapio.png" alt="visualização do projeto de cardápio">
 				</div>
-
 				<div class="card_contentHidden flex">
 					<h3 class="card_title">Cardápio Sugar Rush Café</h3>
 					<p class="card_description">
-						Projeto consistiu em desenvolver o cardápio de um estabelecimento utilizando apenas <abbr
-							title="Linguagem de Marcação de Hipertexto">HTML5</abbr> e <abbr
-							title="Folha de Estilo em Cascata">CSS3</abbr>.
+						Projeto consistiu em desenvolver o cardápio de um estabelecimento utilizando apenas <abbr title="Linguagem de Marcação de Hipertexto">HTML5</abbr> e <abbr title="Folha de Estilo em Cascata">CSS3</abbr>. Fiz em formato de cards para praticar o uso de Flex box.
 					</p>
-
 					<div class="card_actions flex">
 						<a href="https://frassing.github.io/cardapio-simples/" class="card_action btn" target="_blank">Demo</a>
 						<a href="https://github.com/frassing/cardapio-simples" class="card_action btn" target="_blank">Código</a>
 					</div>
 				</div>
 				<span class="card_arrow">&#8595;</span>
-			</div>
+			</div> <!-- final card 1 -->
 
 			<div class="projetos_card flex">
 				<div class="card_img">
 					<img src="../img/projetos/ods5.png" alt="visualização do projeto mulheres e a igualdade de gênero">
 				</div>
-
 				<div class="card_contentHidden flex">
 					<h3 class="card_title">Mulheres em <abbr title="Ciências, Tecnologia, Engenharias e Matemáticas">STEM</abbr>
 					</h3>
 					<p class="card_description">
-						Nesse projeto, optei por criar o conteúdo sobre a presença das mulheres nas áreas de <abbr
-							title="Ciências, Tecnologia, Engenharias e Matemáticas">STEM</abbr>, planejei e desenvolvi o layout
-						utilizando <abbr title="Linguagem de Marcação de Hipertexto">HTML5</abbr> e <abbr
-							title="Folha de Estilo em Cascata">CSS3</abbr>, e o menu mobile com JavaScript.
+						Optei por criar o conteúdo sobre a presença das mulheres nas áreas de <abbr title="Ciências, Tecnologia, Engenharias e Matemáticas">STEM</abbr>; desenvolvi o layout utilizando <abbr title="Linguagem de Marcação de Hipertexto">HTML5</abbr> e <abbr title="Folha de Estilo em Cascata">CSS3</abbr>, e o menu mobile com JavaScript.
 					</p>
-
+					<p class="card_description">
+						Primeira tentativa de praticar a responsividade com medias queries (ainda não aplicando o desenvolvimento mobile first), utilizar variáveis no CSS e aplicar mais algumas tags semânticas (blockquote, cite).
+					</p>
 					<div class="card_actions flex">
 						<a href="https://frassing.github.io/ods5-mulheres-stem/" class="card_action btn" target="_blank">Demo</a>
 						<a href="https://github.com/frassing/ods5-mulheres-stem" class="card_action btn" target="_blank">Código</a>
 					</div>
 				</div>
 				<span class="card_arrow">&#8595;</span>
-			</div>
+			</div> <!-- final card 2 -->
 
 			<div class="projetos_card flex">
 				<div class="card_img">
 					<img src="../img/projetos/portfolio.png" alt="visualização do projeto portfólio">
 				</div>
-
 				<div class="card_contentHidden flex">
 					<h3 class="card_title">Portfólio Ver. 01</h3>
 					<p class="card_description">
-						Primeira versão do meu portfólio utilizando <abbr title="Linguagem de Marcação de Hipertexto">HTML5</abbr>,
-						<abbr title="Folha de Estilo em Cascata">CSS3</abbr> e JavaScript.
+						Primeira versão do meu portfólio utilizando <abbr title="Linguagem de Marcação de Hipertexto">HTML5</abbr>, <abbr title="Folha de Estilo em Cascata">CSS3</abbr> e JavaScript para praticar o desenvolvimento mobile first, responsividade com medias queries, CSS grid, animações, manipulação do DOM com JavaScript e site com subpáginas.
 					</p>
-
+					<p class="card_description">
+						Experimentei um estilo de navegação para telas menores que se assemelha ao menu presente em aplicativos mobile para uma navegação mais intuitiva.
+					</p>
 					<div class="card_actions flex">
 						<a href="https://frassing.github.io/" class="card_action btn" target="_blank">Demo</a>
 						<a href="https://github.com/frassing/frassing.github.io" class="card_action btn" target="_blank">Código</a>
 					</div>
 				</div>
 				<span class="card_arrow">&#8595;</span>
-			</div>
+			</div> <!-- final card 3 -->
 
 			<div class="projetos_card flex">
 				<div class="card_img">
 					<img src="../img/projetos/profilebs.png" alt="visualização do projeto card profile">
 				</div>
-
 				<div class="card_contentHidden flex">
 					<h3 class="card_title">Card profile</h3>
 					<p class="card_description">
-						Projeto para a prática de BootStrap. Desenvolvido utilizando <abbr
-							title="Linguagem de Marcação de Hipertexto">HTML5</abbr>, <abbr
-							title="Folha de Estilo em Cascata">CSS3</abbr> e BootStrap v5.3.
+						Card de perfil personalizado, funciona como uma pequena apresentação da pessoa. Desenvolvido utilizando <abbr title="Linguagem de Marcação de Hipertexto">HTML5</abbr>, <abbr title="Folha de Estilo em Cascata">CSS3</abbr> e BootStrap v5.3.
 					</p>
-
+					<p class="card_description">
+						Para a prática de elementos como: leitura de documentação e aplicação, container, colunas, linhas, responsividade e formatação de estilo nas classes. Não utiliza a customização do Sass ainda.
+					</p>
 					<div class="card_actions flex">
 						<a href="https://frassing.github.io/profileBS/" class="card_action btn" target="_blank">Demo</a>
 						<a href="https://github.com/frassing/profileBS" class="card_action btn" target="_blank">Código</a>
 					</div>
 				</div>
 				<span class="card_arrow">&#8595;</span>
-			</div>
+			</div> <!-- final card 4 -->
 
 			<div class="projetos_card flex">
 				<div class="card_img">
 					<img src="../img/projetos/todoList.png" alt="visualização do projeto to-do list">
 				</div>
-
 				<div class="card_contentHidden flex">
 					<h3 class="card_title">To-do List</h3>
 					<p class="card_description">
-						Projeto para a prática de JavaScript. Desenvolvido utilizando <abbr
-							title="Linguagem de Marcação de Hipertexto">HTML5</abbr>, <abbr
-							title="Folha de Estilo em Cascata">CSS3</abbr> e JavaScript.
+						Desenvolvido utilizando <abbr title="Linguagem de Marcação de Hipertexto">HTML5</abbr>, <abbr title="Folha de Estilo em Cascata">CSS3</abbr> e JavaScript. Lista de to-do's que é gerada manipulando o DOM, de acordo com a entrada do usuário.
 					</p>
-
+					<p class="card_description">
+						É possível adicionar uma nova tarefa, marcá-la como concluída, desmarcá-la, removê-la e até apagar a lista inteira. Dados são perdidos ao atualizar a página. 
+					</p>
 					<div class="card_actions flex">
 						<a href="https://frassing.github.io/todoList/" class="card_action btn" target="_blank">Demo</a>
 						<a href="https://github.com/frassing/todoList" class="card_action btn" target="_blank">Código</a>
 					</div>
 				</div>
 				<span class="card_arrow">&#8595;</span>
-			</div>
+			</div> <!-- final card 5 -->
 
 			<div class="projetos_card flex">
 				<div class="card_img">
 					<img src="../img/projetos/validacpf.png" alt="visualização do projeto ADICIONAR AQUI">
 				</div>
-
 				<div class="card_contentHidden flex">
 					<h3 class="card_title">ValidaCpf</h3>
 					<p class="card_description">
-						Desenvolvido para a prática de Python. Algoritmo que verifica a consistência do número de cpf
-						(válido/inválido).
+						Algoritmo que verifica a consistência do número de cpf (válido/inválido). Recebe uma entrada, faz o processamento (seguindo a lógica apresentada na referência) e fornece uma saída ao usuário. 
 					</p>
-
+					<p class="card_description">
+						Foquei em estruturas condicionais, estruturas de repetição, funções e listas. 
+					</p>
 					<div class="card_actions flex">
-						<a href="https://drive.google.com/file/d/1LzfSqOuiopJsz11mkyU8g5_tjm3CoKIn/view?usp=sharing"
-							class="card_action btn" target="_blank">Demo</a>
+						<a href="https://drive.google.com/file/d/1LzfSqOuiopJsz11mkyU8g5_tjm3CoKIn/view?usp=sharing" class="card_action btn" target="_blank">Demo</a>
 						<a href="https://github.com/frassing/pyValidaCpf" class="card_action btn" target="_blank">Código</a>
+						<a href="https://replit.com/@frassing/validaCpf?v=1" class="card_action btn" target="_blank">Execute</a>
 					</div>
 				</div>
 				<span class="card_arrow">&#8595;</span>
-			</div>
-
-		</div>
+			</div> <!-- final card 6 -->
+		</div> <!-- final container de cards -->
 	</main>
 
 	<footer class="footer">
@@ -206,7 +191,6 @@
 				<i class="fab fa-instagram"></i>
 			</a>
 		</div>
-
 		<p class="copyright">&copy; 2023 | Desenvolvido por Raquel Roessing</p>
 	</footer>
 

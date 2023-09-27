@@ -124,7 +124,6 @@
 	.projetos_cardsContainer {
 		grid-template-columns: 1fr 1fr;
 		justify-items: center;
-		column-gap: .4em;
 	}
 
 	/* ------------- Pág. Contato ------------- */
@@ -210,5 +209,9 @@
 		grid-template-columns: 1fr 1fr 1fr;
 		justify-items: center;
 		row-gap: 2em;
+	}
+
+	.card_description {
+		font-size: .860em;
 	}
 }

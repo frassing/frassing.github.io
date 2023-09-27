@@ -12,8 +12,7 @@
 	<link rel="icon" type="image/png" sizes="16x16" href="../favicon_io/favicon-16x16.png">
 	<link rel="manifest" href="../favicon_io/site.webmanifest">
 
-	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
-		crossorigin="anonymous" referrerpolicy="no-referrer">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" crossorigin="anonymous" referrerpolicy="no-referrer">
 
 	<link rel="stylesheet" href="../css/base.css">
 	<link rel="stylesheet" href="../css/contato.css">
@@ -30,21 +29,18 @@
 						<span class="nav_text">Início</span>
 					</a>
 				</li>
-
 				<li class="nav_item">
 					<a href="./sobre.html" class="nav_link flex">
 						<i class="nav_icon fa fa-user"></i>
 						<span class="nav_text">Sobre</span>
 					</a>
 				</li>
-
 				<li class="nav_item">
 					<a href="./projetos.html" class="nav_link flex">
 						<i class="nav_icon fa fa-folder"></i>
 						<span class="nav_text">Projetos</span>
 					</a>
 				</li>
-
 				<li class="nav_item">
 					<a href="./contato.html" class="nav_link flex">
 						<i class="nav_icon fa fa-envelope"></i>
@@ -52,7 +48,7 @@
 					</a>
 				</li>
 			</ul>
-
+			<!-- Ícone para mudar o tema light/dark -->
 			<button type="button" id="changeTheme-btn">
 				<i class="changeTheme_icon fa fa-sun" aria-hidden="true"></i>
 			</button>
@@ -61,15 +57,12 @@
 
 	<main class="page_main contato_main grid">
 		<h1 class="page_title">Contato</h1>
-
 		<div class="page_img form_img">
 			<img src="../img/contato-rafiki.svg" alt="ilustração mulher com um celular exibindo os seu contatos">
 		</div>
 
 		<div class="contato_formContainer grid">
-
 			<form action="https://formsubmit.co/dd220958b3091f667e15dc2421688dd4" method="post" class="flex contato_form">
-
 				<label for="nome">Nome:</label>
 				<input type="text" name="nome" id="nome" required>
 
@@ -78,13 +71,12 @@
 
 				<label for="mensagem">Mensagem:</label>
 				<textarea name="mensagem" id="mensagem" placeholder="Digite sua mensagem aqui."></textarea>
-
+				<!-- Ao enviar uma mensagem, retorna a página de obrigado -->
 				<input type="hidden" name="_next" value="https://frassing.github.io/assets/pages/obrigada.html">
 
 				<button class="btn" type="submit">Enviar</button>
 			</form>
 		</div>
-
 	</main>
 
 	<footer class="footer">
@@ -99,7 +91,6 @@
 				<i class="fab fa-instagram"></i>
 			</a>
 		</div>
-
 		<p class="copyright">&copy; 2023 | Desenvolvido por Raquel Roessing</p>
 	</footer>
 
