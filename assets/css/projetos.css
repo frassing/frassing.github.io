@@ -17,6 +17,7 @@
 	color: var(--card-text);
 	text-align: center;
 	box-shadow: 0 0 30px -5px;
+	overflow: hidden;
 }
 
 .card_contentHidden {
